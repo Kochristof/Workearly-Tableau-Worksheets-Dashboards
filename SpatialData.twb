@@ -1,0 +1,1804 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20251.25.0313.2002                               -->
+<workbook original-version='18.1' source-build='2025.1.0 (20251.25.0313.2002)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SpatialFileLayer />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='NYC Parks and Public Spaces' inline='true' name='federated.0bwl82m1to7sby150s2mx08c6ctg' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='NYC Parks and Public Spaces' name='ogrdirect.15qdg5b1dd56oq198jf2u1k1636a'>
+            <connection class='ogrdirect' directory='C:/Users/k.christoforidis/OneDrive - PROTASIS S.A/Desktop/Personal/Seminars etc/Workearly/Tableau/DataPrep_CrossJoins_ Clustering/DataPrep_CrossJoins_ Clustering/NYC Parks and Public Spaces -  Spatial Files' filename='NYC Parks and Public Spaces.shp' password='' server='' tablename='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='ogrdirect.15qdg5b1dd56oq198jf2u1k1636a' name='NYC Parks and Public Spaces.shp' table='[NYC Parks and Public Spaces.shp]' type='table'>
+          <columns>
+            <column datatype='string' name='waterfront' ordinal='0' />
+            <column datatype='string' name='address' ordinal='1' />
+            <column datatype='string' name='retired' ordinal='2' />
+            <column datatype='string' name='name311' ordinal='3' />
+            <column datatype='string' name='permitpare' ordinal='4' />
+            <column datatype='string' name='subcategor' ordinal='5' />
+            <column datatype='string' name='commission' ordinal='6' />
+            <column datatype='string' name='mapped' ordinal='7' />
+            <column datatype='string' name='typecatego' ordinal='8' />
+            <column datatype='string' name='signname' ordinal='9' />
+            <column datatype='string' name='omppropid' ordinal='10' />
+            <column datatype='string' name='borough' ordinal='11' />
+            <column datatype='string' name='department' ordinal='12' />
+            <column datatype='string' name='location' ordinal='13' />
+            <column datatype='string' name='jurisdicti' ordinal='14' />
+            <column datatype='string' name='url' ordinal='15' />
+            <column datatype='string' name='pip_ratabl' ordinal='16' />
+            <column datatype='string' name='nys_assemb' ordinal='17' />
+            <column datatype='string' name='acquisitio' ordinal='18' />
+            <column datatype='string' name='zipcode' ordinal='19' />
+            <column datatype='string' name='communityb' ordinal='20' />
+            <column datatype='real' name='gisobjid' ordinal='21' />
+            <column datatype='real' name='objectid' ordinal='22' />
+            <column datatype='string' name='permit' ordinal='23' />
+            <column datatype='string' name='class' ordinal='24' />
+            <column datatype='real' name='acres' ordinal='25' />
+            <column datatype='string' name='precinct' ordinal='26' />
+            <column datatype='string' name='parentid' ordinal='27' />
+            <column datatype='string' name='councildis' ordinal='28' />
+            <column datatype='string' name='us_congres' ordinal='29' />
+            <column datatype='string' name='eapply' ordinal='30' />
+            <column datatype='string' name='global_id' ordinal='31' />
+            <column datatype='string' name='nys_senate' ordinal='32' />
+            <column datatype='string' name='permitdist' ordinal='33' />
+            <column datatype='string' name='gispropnum' ordinal='34' />
+            <column datatype='spatial' name='Geometry' ordinal='35' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>waterfront</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[waterfront]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>waterfront</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>address</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[address]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>address</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>retired</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[retired]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>retired</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>name311</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[name311]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>name311</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>permitpare</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[permitpare]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>permitpare</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>subcategor</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[subcategor]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>subcategor</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>commission</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[commission]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>commission</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>mapped</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[mapped]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>mapped</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>typecatego</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[typecatego]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>typecatego</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>signname</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[signname]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>signname</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>omppropid</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[omppropid]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>omppropid</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>borough</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[borough]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>borough</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>department</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[department]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>department</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>location</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[location]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>location</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>jurisdicti</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[jurisdicti]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>jurisdicti</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>url</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[url]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>url</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pip_ratabl</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[pip_ratabl]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>pip_ratabl</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nys_assemb</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[nys_assemb]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>nys_assemb</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>acquisitio</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[acquisitio]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>acquisitio</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>zipcode</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[zipcode]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>zipcode</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>communityb</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[communityb]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>communityb</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gisobjid</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[gisobjid]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>gisobjid</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>objectid</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[objectid]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>objectid</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>permit</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[permit]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>permit</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>class</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[class]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>class</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>acres</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[acres]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>acres</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>precinct</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[precinct]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>precinct</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>parentid</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[parentid]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>parentid</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>councildis</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[councildis]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>councildis</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>us_congres</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[us_congres]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>us_congres</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>eapply</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[eapply]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>eapply</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>global_id</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[global_id]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>global_id</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nys_senate</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[nys_senate]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>nys_senate</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>permitdist</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[permitdist]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>permitdist</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>gispropnum</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[gispropnum]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>gispropnum</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Geometry</remote-name>
+            <remote-type>8</remote-type>
+            <local-name>[Geometry]</local-name>
+            <parent-name>[NYC Parks and Public Spaces.shp]</parent-name>
+            <remote-alias>Geometry</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>spatial</local-type>
+            <aggregation>Collect</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='NYC Parks and Public Spaces.shp' datatype='table' name='[__tableau_internal_object_id__].[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]' role='measure' type='quantitative' />
+      <column datatype='string' name='[zipcode]' role='dimension' semantic-role='[ZipCode].[Name]' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/KB5D6~1.CHR/AppData/Local/Temp/TableauTemp/#TableauTemp_0peb42b0ipxrlr1azz5eg1igfrn6.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='04/07/2025 06:55:56 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>waterfront</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[waterfront]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>waterfront</remote-alias>
+              <ordinal>0</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>address</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[address]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>address</remote-alias>
+              <ordinal>1</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1297</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>retired</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[retired]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>retired</remote-alias>
+              <ordinal>2</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>name311</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[name311]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>name311</remote-alias>
+              <ordinal>3</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1455</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>permitpare</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[permitpare]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>permitpare</remote-alias>
+              <ordinal>4</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>69</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>subcategor</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[subcategor]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>subcategor</remote-alias>
+              <ordinal>5</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>33</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>commission</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[commission]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>commission</remote-alias>
+              <ordinal>6</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>mapped</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[mapped]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>mapped</remote-alias>
+              <ordinal>7</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>typecatego</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[typecatego]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>typecatego</remote-alias>
+              <ordinal>8</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>signname</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[signname]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>signname</remote-alias>
+              <ordinal>9</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1455</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>omppropid</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[omppropid]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>omppropid</remote-alias>
+              <ordinal>10</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2001</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>borough</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[borough]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>borough</remote-alias>
+              <ordinal>11</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>department</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[department]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>department</remote-alias>
+              <ordinal>12</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>72</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>location</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[location]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>location</remote-alias>
+              <ordinal>13</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1791</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>jurisdicti</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[jurisdicti]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>jurisdicti</remote-alias>
+              <ordinal>14</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>23</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>url</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[url]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>url</remote-alias>
+              <ordinal>15</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1922</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>pip_ratabl</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[pip_ratabl]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>pip_ratabl</remote-alias>
+              <ordinal>16</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>nys_assemb</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[nys_assemb]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>nys_assemb</remote-alias>
+              <ordinal>17</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>108</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>acquisitio</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[acquisitio]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>acquisitio</remote-alias>
+              <ordinal>18</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>962</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>zipcode</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[zipcode]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>zipcode</remote-alias>
+              <ordinal>19</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>255</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>communityb</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[communityb]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>communityb</remote-alias>
+              <ordinal>20</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>93</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>gisobjid</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[gisobjid]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>gisobjid</remote-alias>
+              <ordinal>21</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1956</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>objectid</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[objectid]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>objectid</remote-alias>
+              <ordinal>22</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2001</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>permit</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[permit]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>permit</remote-alias>
+              <ordinal>23</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>class</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[class]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>class</remote-alias>
+              <ordinal>24</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>acres</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[acres]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>acres</remote-alias>
+              <ordinal>25</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1037</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>precinct</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[precinct]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>precinct</remote-alias>
+              <ordinal>26</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>76</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>parentid</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[parentid]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>parentid</remote-alias>
+              <ordinal>27</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>68</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>councildis</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[councildis]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>councildis</remote-alias>
+              <ordinal>28</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>88</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>us_congres</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[us_congres]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>us_congres</remote-alias>
+              <ordinal>29</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>29</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>eapply</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[eapply]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>eapply</remote-alias>
+              <ordinal>30</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1451</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>global_id</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[global_id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>global_id</remote-alias>
+              <ordinal>31</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2001</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>nys_senate</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[nys_senate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>nys_senate</remote-alias>
+              <ordinal>32</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>58</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>permitdist</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[permitdist]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>permitdist</remote-alias>
+              <ordinal>33</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>71</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>gispropnum</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[gispropnum]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>gispropnum</remote-alias>
+              <ordinal>34</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2001</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Geometry</remote-name>
+              <remote-type>128</remote-type>
+              <local-name>[Geometry]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Geometry</remote-alias>
+              <ordinal>35</ordinal>
+              <family>NYC Parks and Public Spaces.shp</family>
+              <local-type>spatial</local-type>
+              <aggregation>Collect</aggregation>
+              <approx-count>2001</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Greece&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <object-graph>
+        <objects>
+          <object caption='NYC Parks and Public Spaces.shp' id='NYC Parks and Public Spaces.shp_C68E4A162ED14A628CB38D954FCE6FAC'>
+            <properties context=''>
+              <relation connection='ogrdirect.15qdg5b1dd56oq198jf2u1k1636a' name='NYC Parks and Public Spaces.shp' table='[NYC Parks and Public Spaces.shp]' type='table'>
+                <columns>
+                  <column datatype='string' name='waterfront' ordinal='0' />
+                  <column datatype='string' name='address' ordinal='1' />
+                  <column datatype='string' name='retired' ordinal='2' />
+                  <column datatype='string' name='name311' ordinal='3' />
+                  <column datatype='string' name='permitpare' ordinal='4' />
+                  <column datatype='string' name='subcategor' ordinal='5' />
+                  <column datatype='string' name='commission' ordinal='6' />
+                  <column datatype='string' name='mapped' ordinal='7' />
+                  <column datatype='string' name='typecatego' ordinal='8' />
+                  <column datatype='string' name='signname' ordinal='9' />
+                  <column datatype='string' name='omppropid' ordinal='10' />
+                  <column datatype='string' name='borough' ordinal='11' />
+                  <column datatype='string' name='department' ordinal='12' />
+                  <column datatype='string' name='location' ordinal='13' />
+                  <column datatype='string' name='jurisdicti' ordinal='14' />
+                  <column datatype='string' name='url' ordinal='15' />
+                  <column datatype='string' name='pip_ratabl' ordinal='16' />
+                  <column datatype='string' name='nys_assemb' ordinal='17' />
+                  <column datatype='string' name='acquisitio' ordinal='18' />
+                  <column datatype='string' name='zipcode' ordinal='19' />
+                  <column datatype='string' name='communityb' ordinal='20' />
+                  <column datatype='real' name='gisobjid' ordinal='21' />
+                  <column datatype='real' name='objectid' ordinal='22' />
+                  <column datatype='string' name='permit' ordinal='23' />
+                  <column datatype='string' name='class' ordinal='24' />
+                  <column datatype='real' name='acres' ordinal='25' />
+                  <column datatype='string' name='precinct' ordinal='26' />
+                  <column datatype='string' name='parentid' ordinal='27' />
+                  <column datatype='string' name='councildis' ordinal='28' />
+                  <column datatype='string' name='us_congres' ordinal='29' />
+                  <column datatype='string' name='eapply' ordinal='30' />
+                  <column datatype='string' name='global_id' ordinal='31' />
+                  <column datatype='string' name='nys_senate' ordinal='32' />
+                  <column datatype='string' name='permitdist' ordinal='33' />
+                  <column datatype='string' name='gispropnum' ordinal='34' />
+                  <column datatype='spatial' name='Geometry' ordinal='35' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='NYC Parks and Public Spaces' name='federated.0bwl82m1to7sby150s2mx08c6ctg' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0bwl82m1to7sby150s2mx08c6ctg'>
+            <column datatype='spatial' name='[Geometry]' role='measure' type='nominal' />
+            <column-instance column='[Geometry]' derivation='Collect' name='[clct:Geometry:nk]' pivot='key' type='nominal' />
+            <column datatype='string' name='[name311]' role='dimension' type='nominal' />
+            <column-instance column='[name311]' derivation='None' name='[none:name311:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0bwl82m1to7sby150s2mx08c6ctg].[clct:Geometry:nk]' />
+              <lod column='[federated.0bwl82m1to7sby150s2mx08c6ctg].[none:name311:nk]' />
+              <geometry column='[federated.0bwl82m1to7sby150s2mx08c6ctg].[clct:Geometry:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0bwl82m1to7sby150s2mx08c6ctg].[Latitude (generated)]</rows>
+        <cols>[federated.0bwl82m1to7sby150s2mx08c6ctg].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{9BE35273-349C-40DF-BD6F-A249DF11CF2A}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.10417' source-height='32'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='159'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0bwl82m1to7sby150s2mx08c6ctg].[none:name311:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{7D323197-90AB-41E0-A805-ED4C370AD0CA}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
